@@ -1,0 +1,5 @@
+txt=input()
+txt_2=txt.split('+')
+txt_2.sort()
+txt_3='+'.join(txt_2)
+print(txt_3)
